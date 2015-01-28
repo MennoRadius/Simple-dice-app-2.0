@@ -13,10 +13,10 @@ a{
 }
 
 p{
-	padding: 20px;
+	padding: 15px;
 }
 
-a, p{
+.container a, p{
 	background-color: #30a0ea;
 	font-size: 1.5em;
 	font-weight: bold;
@@ -28,25 +28,49 @@ a, p{
 }
 
 .container{
-	width: 210px;
-	margin: 100px auto;
+	margin: 10px 3px;
+}
+
+.die-wrapper{
+	text-align: center;
+	margin: 0 auto;
 }
 
 .die img{
+	width: 50px;
+}
+
+#roll, #total{
+	text-align: center;
+	width: 75%;
+	margin: 18px auto;
+}
+
+footer{
+	position: absolute;
+	bottom: 0;
+	width: 100%;
+}
+
+footer nav ul{
+	list-style-type: none;
+	padding: 0;
+}
+
+footer nav ul li{
 	display: block;
-	margin: 0 auto;
-	width: 90px;
 }
 
-.die{
-	display: inline-block;
-	margin: 0 6px;
+footer nav ul li a{
+	padding: 0 3px;
+	margin: 3px;
+	float: left;
+	width: 25%;
+	border-radius: 10px;
 }
 
-#roll{
-	text-align: center;
-}
-
-#comment{
-	text-align: center;
+.die-icon{
+	width: 30px;
+	margin-bottom: -10px;
+	margin-left: 3px;
 }
